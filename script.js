@@ -22,9 +22,10 @@ const numberOfBooksRead = () => {
 		  if (library[i].readingStatus==true) {
 		  	c++;
 		  }
-		  else
-			  return 0;
+
 	  }
+			  
+			  return c;
 };
 
 // Do not change the code below
